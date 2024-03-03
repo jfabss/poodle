@@ -1,7 +1,5 @@
 /* imports */
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 html {
     font-size: 100%;
@@ -9,7 +7,7 @@ html {
     min-height: 100%;
     width: 100%;
     scroll-behavior: smooth;
-    background-color: #E56020;
+    background-color: #FAF9F6;
     height: 100% !important;
 }
 
@@ -24,7 +22,9 @@ body {
     height: 100%;
     text-align: center;
     color: #000000;
-    font-family: 'chakra petch', sans-serif;
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
     padding: 0;
     margin: 0;
 }
@@ -37,13 +37,14 @@ body {
 }
 
 #title-id {
-    font-size: 3rem;
-    -webkit-text-stroke: 3px #000000;
+    font-size: 5rem;
     padding: 0;
     margin: 2%;
     font-style: italic;
-    font-family: "Chakra Petch", serif;
-    color: #eee;
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
 }
 
 .help-button {
@@ -53,7 +54,7 @@ body {
     font-size: 2rem;
     width: 40px;
     height: 40px;
-    background-color: #5f259f;
+    background-color: #88d5ff;
     color: #eee;
     border: none;
     transform: translate(-4px, 0px);
@@ -62,10 +63,19 @@ body {
 }
 
 .help-button:hover {
-    background-color: #9b3dff;
+    background-color: #88d5ff;
     transform: translate(0px, 4px);
     box-shadow: 0px 0px 0px 3px black, 0px 0px 0px 3px black, 0px 0px 0px 3px black, 0px 0px 0px 3px black, 0px 0px 0px 3px black;
 }
+
+.bone-pic {
+
+    height: 40px;
+    width: 40px;
+    filter: brightness(0);
+
+}
+
 
 /* pop up instructions section */
 .popup .overlay {
@@ -151,7 +161,7 @@ body {
     font-size: 1.5rem;
     width: 30px;
     height: 30px;
-    background-color: #5f259f;
+    background-color: #88d5ff;
     color: #eee;
     border: none;
     transform: translate(-4px, 0px);
@@ -208,7 +218,6 @@ body {
     max-height: 100%;
     display: block;
     filter: brightness(0);
-    margin-top: 15px;
 }
 
 /* search and submit section */
@@ -275,7 +284,7 @@ input[type="text"]:hover {
 }
 
 input[type="submit"] {
-    background-color: #5f259f;
+    background-color:  #88d5ff;
     height: 5vh;
     border: none;
     cursor: pointer;

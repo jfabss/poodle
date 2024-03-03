@@ -6,13 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Poeltl (Sun's Only Edition)</title>
+    <title>Poodle</title>
 
-    <meta name="description"
-        content="This is a recreation of the NBA guessing game Poeltl, an NBA spin on the Wordle puzzles; however, this game only includes players who play for / have played for the Phoenix Suns.">
-    <meta name="keywords"
-        content="phoenix suns poeltl, suns poetl, poeltl game, nba wordle, guess the nba player, poetle, poetlt, nba guessing game, nba player guessing game, basketball wordle, nba guess, weddle nba, phoenix suns puzzle, phoenix suns game">
-    <meta name="author" content="Jackson Fabiano (jfabss on github)">
     <link rel="stylesheet" href="styles.css">
 
 </head>
@@ -21,8 +16,9 @@
 
     <!-- header -->
     <header class="header-class">
-        <h1 class="chakra-petch-bold" id="title-id">SUNS POELTL</h1>
-        <button class="help-button" onclick="togglePopup()">?</button>
+        <h1 class="vt323-regular" id="title-id">POODLE</h1>
+        <button class="help-button" onclick="togglePopup()">	
+            <img class="bone-pic"src="https://art.pixilart.com/sr2a23700c45cb4.png"></button>
         <div class="popup" id="help-popup">
             <div class="overlay">
                 <div class="content">
@@ -32,7 +28,7 @@
                             <button class="close-button" onclick="togglePopup()">&times;</button>
                         </div>
                         <div class="instructions-section-div">
-                            <p>Try and guess which Suns player is in the silhouette.</p>
+                            <p>Try and guess the mystery pup!</p>
                             <span>
                                 <div class="ins-box correct"></div>
                                 <p>A green clue is an exact match</p>
@@ -60,7 +56,7 @@
 
     <!-- line + description text -->
     <hr id="title-line">
-    <p id="instruction-id">Guess which Suns player is shown below...</p>
+    <p id="instruction-id">Guess which dog breed is shown below...</p>
 
     <!-- image section -->
     <div class="player-img-container" id="player-img-container">
@@ -79,15 +75,13 @@
     <div class="guess-container" id="guess-container">
         <div class="categories-container">
             <div class="category" id="college" onmouseover="toggleCollegeToolTip()" onmouseout="toggleCollegeToolTip()">
-                1st Team</div>
+                Lifespan</div>
             <div class="category" id="draft-year" onmouseover="toggleDebutToolTip()" onmouseout="toggleDebutToolTip()">
-                Debut</div>
-            <div class="category" id="height" onmouseover="toggleHeightToolTip()" onmouseout="toggleHeightToolTip()">H.
+                Size</div>
+            <div class="category" id="height" onmouseover="toggleHeightToolTip()" onmouseout="toggleHeightToolTip()">Purpose
             </div>
-            <div class="category" id="number" onmouseover="toggleNumberToolTip()" onmouseout="toggleNumberToolTip()">#
+            <div class="category" id="number" onmouseover="toggleNumberToolTip()" onmouseout="toggleNumberToolTip()">Coat Type
             </div>
-            <div class="category" id="position" onmouseover="togglePositionToolTip()"
-                onmouseout="togglePositionToolTip()">Pos.</div>
         </div>
 
         <div id="tool-tip-container-college">
